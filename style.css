@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+html, body {
+    background-image: url('imagens/menu-alan-wake.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-width: 800px;
+    height: 100%;
+    
+}
+
+div {
+    padding: 50px;
+}
+
+nav {
+    text-align: right;
+    padding-right: 100px ;
+    
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+a:hover {
+    text-shadow: 1px 1px 10px white;
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.771), transparent);
+    padding: 3px 50px 3px 3px;
+    border-radius: 3px;
+}
+
